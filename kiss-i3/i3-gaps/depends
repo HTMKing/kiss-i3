@@ -1,0 +1,12 @@
+autoconf
+automake
+perl
+libxcb
+xcb-util
+xcb-util-cursor
+xcb-util-wm
+xcb-util-keysyms
+libev
+pcre
+pango
+cairo
