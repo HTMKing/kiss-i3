@@ -5,6 +5,7 @@ KISS Linux repo that contains i3-gaps and all of its dependencies.
 Clone this repo wherever you want (as long as KISS has permission to access it), and add the directory of the repository to the KISS_PATH variable.
 
 ### Installing i3-gaps
+You also might want to install dmenu, which is in KISS's [Community Repository](www.github.com/kisslinux/community)
 ```
 kiss b i3-gaps
 kiss i i3-gaps
