@@ -1,0 +1,6 @@
+#!/bin/sh -e
+
+autoreconf --install
+./configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers
+make
+make DESTDIR="$1" install 
