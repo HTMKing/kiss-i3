@@ -1,0 +1,8 @@
+#!/bin/sh -e
+
+mkdir build
+cd build
+
+../configure --prefix=/usr
+make
+make DESTDIR="$1" install
