@@ -1,5 +1,5 @@
-autoconf
-automake
+autoconf make
+automake make
 perl
 libxcb
 libxkbcommon
