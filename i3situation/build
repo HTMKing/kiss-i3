@@ -1,0 +1,5 @@
+#!/bin/sh -e
+
+python3 setup.py build
+
+python3 setup.py install --root="$1" --prefix=/usr --skip-build
