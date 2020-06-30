@@ -1,0 +1,6 @@
+#!/bin/sh
+
+patch -p1 < kiss_install.patch
+
+make
+make DEST="$1" install

@@ -1,0 +1,2 @@
+patches/kiss_install.patch
+git+https://www.github.com/schischi/xcwd.git
